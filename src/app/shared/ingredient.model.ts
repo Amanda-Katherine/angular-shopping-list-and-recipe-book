@@ -1,0 +1,16 @@
+//add 'public' accessor to the constructor arguments, which will create the same effect as the code below.  
+export class Ingredient {
+    constructor(public name: string, public amount: number) {
+    }
+}
+
+//equivalent to the above allowed by TypeScript
+// export class Ingredient {
+//     public name: string;
+//     public amount: number;
+  
+//     constructor(name: string, amount: number) {
+//         this.name = name
+//         this.amount=amount
+//     }
+// }
