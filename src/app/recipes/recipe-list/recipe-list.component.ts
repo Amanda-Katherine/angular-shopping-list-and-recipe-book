@@ -10,7 +10,7 @@ import { Recipe } from '../recipe.model'
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe('A Test Recipe', "A recipe description.", "https://images.freeimages.com/images/large-previews/e7c/recipe-1538714.jpg"),
-    new Recipe('A Test Recipe', "A recipe description.", "https://images.freeimages.com/images/large-previews/e7c/recipe-1538714.jpg")
+    new Recipe('Another Test Recipe', "Another recipe description.", "https://images.freeimages.com/images/large-previews/e7c/recipe-1538714.jpg")
 
   ]
   
